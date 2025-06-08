@@ -14,5 +14,4 @@
         this.location = location;
         this.status = status;
     }
-     
 }

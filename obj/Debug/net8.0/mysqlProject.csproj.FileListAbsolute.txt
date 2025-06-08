@@ -38,3 +38,4 @@ C:\Users\israel\Desktop\תכנות\visual studio\mysqlProject\obj\Debug\net8.0\r
 C:\Users\israel\Desktop\תכנות\visual studio\mysqlProject\obj\Debug\net8.0\mysqlProject.pdb
 C:\Users\israel\Desktop\תכנות\visual studio\mysqlProject\obj\Debug\net8.0\mysqlProject.genruntimeconfig.cache
 C:\Users\israel\Desktop\תכנות\visual studio\mysqlProject\obj\Debug\net8.0\ref\mysqlProject.dll
+C:\Users\israel\Desktop\תכנות\visual studio\mysqlProject\obj\Debug\net8.0\mysqlProject.sourcelink.json

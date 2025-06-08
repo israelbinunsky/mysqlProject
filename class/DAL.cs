@@ -20,9 +20,9 @@ internal class DAL
         this.conn = new MySqlConnection(this.strCon);
     }
 
-    public void createAgent(string codeName, string realName, string location, string status)
+    public void AddAgent(agent agent)
     {
-        this.query = $"INSERT INTO agents (codeName, realName, location, status, missionsCompleted) VALUES ('{codeName}', '{realName}', '{location}', '{status}', 0);";
+        this.query = $"INSERT INTO agents (codeName, realName, location, status, missionsCompleted) VALUES ('{agent.codeName}', '{agent.realName}', '{agent.location}', '{agent.status}', 0);";
         try
         {
             this.conn.Open();

@@ -39,7 +39,8 @@ namespace mysqlProject
                     string location = Console.ReadLine();
                     Console.WriteLine("enter status.");
                     string status = Console.ReadLine();
-                    dal.createAgent(codeName, realName, location, status);
+                    agent agent = new agent(codeName, realName, location, status);
+                    dal.AddAgent(agent);
                     menue(dal);
                     break;
                 case 2:
