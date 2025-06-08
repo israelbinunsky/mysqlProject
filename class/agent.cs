@@ -1,5 +1,6 @@
 ﻿public class agent
 {
+    public int id { get; set; }
     public string codeName { get; set; }
     public string realName { get; set; }
     public string location { get; set; }

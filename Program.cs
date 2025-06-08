@@ -13,7 +13,10 @@ namespace mysqlProject
         static void Main(string[] args)
         {
             DAL dal = new DAL();
-            dal.creatAgent("162", "jo", "TLV", "Active");
+            //dal.creatAgent("654", "jo", "TLV", "Active");
+            dal.UpdateAgentLocation(5, "boston");
+            dal.makeMission(6);
+            dal.GetAllAgents();
         }
     }
 }

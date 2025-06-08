@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mysqlProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b11b47b877b0d1305067bd79f5e37eda307260c")]
 [assembly: System.Reflection.AssemblyProductAttribute("mysqlProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mysqlProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
