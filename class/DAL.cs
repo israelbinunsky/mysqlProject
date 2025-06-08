@@ -22,7 +22,6 @@ internal class DAL
 
     public void createAgent(string codeName, string realName, string location, string status)
     {
-        agent agent = new agent(codeName, realName, location, status);
         this.query = $"INSERT INTO agents (codeName, realName, location, status, missionsCompleted) VALUES ('{codeName}', '{realName}', '{location}', '{status}', 0);";
         try
         {
